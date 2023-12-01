@@ -7,7 +7,7 @@
 
 ## Programming paradigm 
 A programming paradigm is a fundamental style or approach to programming, guiding the structure and organization of code.<br> Common paradigms include:
-- Procedural programming 
+- [Procedural programming](procedural.md)
 - Object oriented programming 
 - Functional programming
 - Event driven programming
