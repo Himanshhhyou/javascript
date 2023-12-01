@@ -15,7 +15,7 @@ A programming paradigm is a fundamental style or approach to programming, guidin
 
 *Programming paradigm is like a way of thinking that helps programmers to write code. It's a style that guides how you organize and structure your programs.*
 
-## Multiple Paradigm
+### Multiple Paradigm
 Multi-paradigm programming refers to the capability of a programming language to support multiple programming paradigms, which are approaches to solving problems and structuring code. Common paradigms include imperative, declarative, object-oriented, and functional programming. Languages like Python, C++, and Java are considered multi-paradigm because they allow developers to use various programming styles based on the needs of a particular task. This flexibility can enhance code expressiveness and support diverse problem-solving strategies.
 
 ## Event driven language
