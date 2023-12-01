@@ -1,6 +1,9 @@
 # Javascript
 - Invented by **Brendan Eich** in 1995
 
+## Multiple Paradigm
+Multi-paradigm programming refers to the capability of a programming language to support multiple programming paradigms, which are approaches to solving problems and structuring code. Common paradigms include imperative, declarative, object-oriented, and functional programming. Languages like Python, C++, and Java are considered multi-paradigm because they allow developers to use various programming styles based on the needs of a particular task. This flexibility can enhance code expressiveness and support diverse problem-solving strategies.
+
 ## Object oriented programming language 
 
 <img src="object-oriented-programming-languages.png">
