@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
   <div id="nameFormContainer">
     <h1>Number Guessing Game</h1>
     <form id="nameForm">
-      <label for="userName">Enter your name:</label>
+      <label for="userName">Enter your name</label>
       <input type="text" id="userName" required>
       <button type="button" onclick="startGame()">Start Game</button>
     </form>
@@ -22,7 +23,7 @@
   <div id="gameSection" style="display: none;">
     <h1 id="hello"></h1>
     <div>
-      <label for="userGuess">Guess a number between 1 and 100:</label>
+      <label for="userGuess">Guess a number between 1 and 100</label>
       <input type="number" id="userGuess" min="1" max="100">
     </div>
     <button type="button" onclick="checkGuess()">Submit Guess</button>
