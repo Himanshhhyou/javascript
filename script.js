@@ -7,7 +7,7 @@ let targetNumber, attempts, userName;
         attempts = 0;
 
         // Hide the name form and display the game section
-        document.getElementById("hello").innerText = "Hello! " + userName;
+        document.getElementById("hello").innerText = `Hello! $userName`;
         document.getElementById("nameFormContainer").style.display = "none";
         document.getElementById("gameSection").style.display = "block";
       } else {
@@ -23,9 +23,9 @@ let targetNumber, attempts, userName;
       if (userGuess === targetNumber) {
         displayMessage(`Congratulations, ${userName}! You guessed the correct number in ${attempts} attempts!`, 'green');
       } else if (userGuess < targetNumber) {
-        displayMessage(`${userName}, Too low! Try again.`, 'red');
+        displayMessage(`Too low! Try again.`, 'red');
       } else {
-        displayMessage(`${userName}, Too high! Try again.`, 'red');
+        displayMessage(`Too high! Try again.`, 'red');
       }
 
       document.getElementById("attempts").innerText = `Attempts: ${attempts}`;
