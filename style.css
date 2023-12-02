@@ -9,7 +9,7 @@ body {
   color: #fff;
   margin: 0;
   padding: 10px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('alchemyrefiner_alchemymagic_1_3c339a02-4ffa-4fdd-943e-ccaee61b474d_0.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('background.jpg');
   background-size: cover;
   position: relative;
   transition: 0.5s;
