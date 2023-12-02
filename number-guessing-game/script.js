@@ -21,8 +21,9 @@ let targetNumber, attempts, userName;
       attempts++;
 
       if (userGuess === targetNumber) {
-          document.getElementById('btn').style.display='none';
-          document.getElementById('userGuess').style.display='none';
+          document.getElementById('btn').style.display = 'none';
+          document.getElementById('userGuess').style.display = 'none';
+          document.getElementById("hello").style.display = 'none';
         displayMessage(`Congratulations, ${userName}! You guessed the correct number in ${attempts} attempts!`, 'green');
       } else if (userGuess < targetNumber) {
         displayMessage(`Too low! Try again.`, 'red');
