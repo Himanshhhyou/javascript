@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 10px;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('background.jpg');
+  background: #fff;
   background-size: cover;
   position: relative;
   transition: 0.5s;
