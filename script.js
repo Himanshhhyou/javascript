@@ -7,9 +7,9 @@ let targetNumber, attempts, userName;
         attempts = 0;
 
         // Hide the name form and display the game section
-        document.getElementById("hello").innerText = `Hello! {userName}`;
         document.getElementById("nameFormContainer").style.display = "none";
         document.getElementById("gameSection").style.display = "block";
+        document.getElementById("hello").innerText = `Hello! ${userName}`;
       } else {
         alert("Please enter your name.");
       }
